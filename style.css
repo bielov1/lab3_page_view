@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', serif;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    min-height: 100vh;
+}
+
+.navbar_menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    gap: 10px;
+    margin: 10px 0px;
+    list-style: none
+}
+
+.navbar_item {
+    width: 170px;
+    height: 45px;
+    text-align: center;
+    align-content: center;
+    background-color: #000;
+    color: #fff;
+    font-size: 20px;
+    font-style: bold;
+}
+
+#navbar_pop_item {
+    width: 300px;
+    text-align: center;
+    align-content: center;
+    background-color: #171717;
+    color: #fff;
+    font-size: 20px;
+    font-style: bold;
+}
+
+.main_information {
+    width: 1000px;
+    margin: 30px 100px;
+    background-color: #E3E3E3;
+}
+
+.for_whom {
+    color: #fff;
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    line-height: 0.7;
+    margin-bottom: -30px;
+}
+
+.information_title {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.blocks_info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px
+}
+
+.block_info {
+    background-color: #fff;
+    width: 250px;
+    height: 500px;
+    margin: 30px 0px;
+    display: flex;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.title {
+    max-width: 140px;
+    margin: 0 50px;
+}
+
+.top_imgs {
+    width: 230px;
+    height: 190px;
+}
+
+.blocks_photo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.blocks_photo {
+    gap: 20px;
+}
+
+.bottom_imgs {
+    width: 300px;
+}
+
+.partners {
+    width: 850px;
+    margin: -30px 180px;
+    background-color: #E3E3E3;
+}
+
+.luxoft_info {
+    display: flex;
+    flex-direction: row;
+}
+
+.luxoft_img {
+    width: 500px;
+} 
+
